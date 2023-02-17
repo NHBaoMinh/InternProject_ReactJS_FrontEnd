@@ -1,0 +1,58 @@
+@import "src/Variables.scss";
+
+.cart-container {
+    .cart__miscellaneous-container {
+        display: flex;
+        gap: 20px;
+    }
+
+    .cart__table-container {
+        .cart__table-product {
+            width: 100%;
+            margin: 20px 0;
+
+            .cart__table-product__product-info {
+                display: flex;
+                flex-direction: row;
+            }
+            .cart__table-product__product-price {
+            }
+            .cart__table-product__product-sum {
+            }
+
+            .cart__table-product__btn-remove {
+                position: absolute;
+                z-index: 10;
+                background: transparent;
+                color: #979797;
+                cursor: pointer;
+                right: -5px;
+                top: 0;
+                border: none;
+                &:hover {
+                    color: $base_color;
+                }
+            }
+        }
+    }
+
+    .product-cart__action-pay {
+        margin: 20px 0;
+        padding: 10px;
+        background-color: #fefefc;
+        border: 1px solid #d6d6d4;
+        border-radius: 5px;
+        .product-cart__btn-payment {
+            border: none;
+            text-transform: capitalize;
+            background-color: $base_color;
+            font-weight: bold;
+            font-size: 17px;
+            width: 100%;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+            color: white;
+        }
+    }
+}

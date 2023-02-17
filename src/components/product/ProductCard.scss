@@ -1,0 +1,17 @@
+.product-card {
+    box-shadow: none !important;
+
+    &:hover {
+        box-shadow: 0 2px 10px #0000001a !important;
+    }
+}
+
+.text-available {
+    color: #1abc9c;
+    font-weight: 700;
+}
+
+.text-unavailable {
+    color: #ea621f;
+    font-weight: 700;
+}

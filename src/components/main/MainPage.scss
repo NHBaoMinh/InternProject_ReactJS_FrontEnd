@@ -1,0 +1,53 @@
+@import "src/Variables.scss";
+
+// .swiper-image {
+//     display: inline-block;
+//     vertical-align: middle;
+//     width: auto;
+//     height: auto;
+// }
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: rgba(58, 56, 56, 0.4);
+
+    &:after {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    &:hover {
+        color: $base-color;
+    }
+}
+
+.providing-service {
+    margin: 60px 0px;
+    .providing-service-card {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        .providing-service-card-icon {
+            height: 54px;
+            width: 54px;
+            border-radius: 50%;
+            border: 1px solid $base-color;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 10px;
+        }
+        .providing-service-card-info {
+            .providing-service-card-info-title {
+                color: $base-color;
+                font-weight: 700;
+            }
+
+            .providing-service-card-info-detail {
+            }
+        }
+    }
+}

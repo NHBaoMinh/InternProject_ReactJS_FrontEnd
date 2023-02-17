@@ -1,0 +1,27 @@
+@import "src/Variables.scss";
+
+.product-manage {
+    height: auto;
+    margin: 10px;
+
+    .table {
+        tbody {
+            .table__action-cell {
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+
+                button {
+                    margin: 5px;
+                    width: 150px;
+                }
+            }
+        }
+    }
+}
+
+.delete-modal__group-button {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+}

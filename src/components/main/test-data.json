@@ -1,0 +1,32 @@
+[
+    {
+        "name" : "Ernie Ball Music Man StingRay Special Bass Guitar, Ebony FB, Raspberry Burst",
+        "price": 63910000,
+        "img": "/images/product/first_product_for_test.png",
+        "available": false
+    },
+    {
+        "name" : "Squier Affinity Series Precision PJ Bass Guitar, Laurel FB, Lake Placid Blue",
+        "price": 7260000,
+        "img": "/images/product/first_product_for_test.png",
+        "available": true
+    },
+    {
+        "name" : "Sterling S.U.B Series Ray4 HH 4-String Electric Bass Guitar, Pacific Blue Burst Satin",
+        "img": "/images/product/first_product_for_test.png",
+        "price": 11880000,
+        "available": true
+    },
+    {
+        "name" : "Fender Player Precison Bass Guitar, Pau Ferro FB, 3-Tone Sunburst",
+        "price": 63910000,
+        "img": "/images/product/first_product_for_test.png",
+        "available": true
+    },
+    {
+        "name" : "Ibanez Premium AFR4WAP-NTF Walnut Electric Bass Guitar, Natural Flat",
+        "price": 34320000,
+        "img": "/images/product/first_product_for_test.png",
+        "available": true
+    }
+]
